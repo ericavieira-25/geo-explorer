@@ -291,6 +291,12 @@ Projeto desenvolvido com assistência do **Bob**, assistente oficial do **Geo-Ex
 
 ---
 
+## 💬 Reflexão Final
+
+> *No Geo‑Explorer, eu aprendi a estruturar um projeto do zero, organizar pastas, criar comandos funcionais e testar cada parte para garantir que tudo realmente funciona. Também entendi a importância de documentar bem e explicar minhas escolhas. No final, percebi que o valor do projeto não está na quantidade de arquivos, mas na clareza, na lógica e na confiança de saber exatamente o que eu construí.*
+
+---
+
 <div align="center">
 
 **🌍 Geo-Explorer / Bob** · MIT License
