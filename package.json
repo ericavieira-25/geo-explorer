@@ -1,0 +1,19 @@
+{
+  "name": "geo-explorer",
+  "version": "2.0.0",
+  "description": "Plataforma fictícia de trilhas de aprendizagem, desafios e certificados — Assistente Bob",
+  "main": "index.js",
+  "bin": {
+    "geo-explorer": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "trilha": "node index.js trilha",
+    "desafio": "node index.js desafio",
+    "certificado": "node index.js certificado",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": ["geo-explorer", "trilhas", "desafios", "certificados", "bob"],
+  "author": "Geo-Explorer / Bob",
+  "license": "MIT"
+}

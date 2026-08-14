@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "projeto": "Geo-Explorer",
+    "assistente": "Bob",
+    "versao": "2.0.0",
+    "descricao": "Base fictícia de trilhas de aprendizagem — cobertura completa"
+  },
+  "tecnologias": [
+    "JavaScript",
+    "Python",
+    "Java",
+    "React",
+    "Node.js"
+  ],
+  "niveis": [
+    "iniciante",
+    "intermediário",
+    "avançado"
+  ],
+  "trilhas": [
+
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "iniciante",
+      "descricao": "Introdução à linguagem JavaScript para desenvolvimento web.",
+      "modulos": [
+        { "id": 1, "nome": "Fundamentos do JavaScript", "objetivo": "Variáveis, tipos de dados e operadores" },
+        { "id": 2, "nome": "Estruturas de Controle", "objetivo": "if/else, loops for/while e switch" },
+        { "id": 3, "nome": "Funções", "objetivo": "Declaração, expressão e arrow functions" },
+        { "id": 4, "nome": "Arrays e Objetos", "objetivo": "Criação, acesso e manipulação de coleções" },
+        { "id": 5, "nome": "DOM e Eventos", "objetivo": "Manipulação do HTML com JavaScript" }
+      ],
+      "projeto_final": "Calculadora interativa com HTML e JavaScript puro",
+      "xp": 8000,
+      "badges": ["JS Beginner", "DOM Explorer"]
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "intermediário",
+      "descricao": "JavaScript moderno com ES6+ e boas práticas de desenvolvimento.",
+      "modulos": [
+        { "id": 1, "nome": "ES6+ e Destructuring", "objetivo": "Spread, rest, template literals e destructuring" },
+        { "id": 2, "nome": "Promises e Async/Await", "objetivo": "Programação assíncrona moderna" },
+        { "id": 3, "nome": "Módulos e Bundlers", "objetivo": "import/export e introdução ao Webpack/Vite" },
+        { "id": 4, "nome": "Manipulação Avançada de Arrays", "objetivo": "map, filter, reduce, flatMap" },
+        { "id": 5, "nome": "Testes com Jest", "objetivo": "Escrever testes unitários básicos" },
+        { "id": 6, "nome": "Consumo de APIs REST", "objetivo": "fetch, axios e tratamento de erros" }
+      ],
+      "projeto_final": "App de busca de filmes consumindo uma API pública com filtros e favoritos",
+      "xp": 13000,
+      "badges": ["JS Ninja", "API Consumer", "Async Master"]
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "avançado",
+      "descricao": "JavaScript de alta performance com padrões de projeto e arquitetura.",
+      "modulos": [
+        { "id": 1, "nome": "Closures e Escopo Avançado", "objetivo": "Hoisting, closures, IIFE e module pattern" },
+        { "id": 2, "nome": "Prototype e POO", "objetivo": "Herança prototípica e classes ES6" },
+        { "id": 3, "nome": "Design Patterns", "objetivo": "Singleton, Observer, Factory e Strategy" },
+        { "id": 4, "nome": "Performance e Otimização", "objetivo": "Debounce, throttle, lazy loading e Web Workers" },
+        { "id": 5, "nome": "TypeScript Fundamentals", "objetivo": "Tipagem estática e interfaces" },
+        { "id": 6, "nome": "Testes Avançados", "objetivo": "TDD, mocks, spies e cobertura de código" }
+      ],
+      "projeto_final": "Biblioteca JavaScript própria publicada no NPM com TypeScript e testes completos",
+      "xp": 20000,
+      "badges": ["JS Expert", "TypeScript Dev", "Pattern Master", "NPM Publisher"]
+    },
+
+    {
+      "tecnologia": "Python",
+      "nivel": "iniciante",
+      "descricao": "Primeiros passos com Python para automação e lógica de programação.",
+      "modulos": [
+        { "id": 1, "nome": "Introdução ao Python", "objetivo": "Sintaxe básica, variáveis e tipos de dados" },
+        { "id": 2, "nome": "Estruturas de Dados", "objetivo": "Listas, dicionários, tuplas e sets" },
+        { "id": 3, "nome": "Estruturas de Controle", "objetivo": "if/elif/else, for, while e compreensões de lista" },
+        { "id": 4, "nome": "Funções e Módulos", "objetivo": "Criação, importação e reutilização de módulos" },
+        { "id": 5, "nome": "Manipulação de Arquivos", "objetivo": "Leitura e escrita de arquivos .txt e .csv" }
+      ],
+      "projeto_final": "Script de automação para organização de arquivos em pastas por extensão",
+      "xp": 8000,
+      "badges": ["Python Starter", "Automation Beginner"]
+    },
+    {
+      "tecnologia": "Python",
+      "nivel": "intermediário",
+      "descricao": "Python aplicado a desenvolvimento web, dados e automação avançada.",
+      "modulos": [
+        { "id": 1, "nome": "POO em Python", "objetivo": "Classes, herança, polimorfismo e encapsulamento" },
+        { "id": 2, "nome": "Manipulação de Dados com Pandas", "objetivo": "DataFrames, filtros e transformações" },
+        { "id": 3, "nome": "APIs com Flask", "objetivo": "Criação de endpoints REST com Flask" },
+        { "id": 4, "nome": "Web Scraping", "objetivo": "BeautifulSoup e requests para extração de dados" },
+        { "id": 5, "nome": "Testes com Pytest", "objetivo": "Testes unitários, fixtures e parametrize" },
+        { "id": 6, "nome": "Banco de Dados com SQLAlchemy", "objetivo": "ORM, migrations e queries" }
+      ],
+      "projeto_final": "API de gerenciamento de tarefas com Flask, SQLAlchemy e autenticação JWT",
+      "xp": 14000,
+      "badges": ["Python Developer", "Data Wrangler", "Flask Builder"]
+    },
+    {
+      "tecnologia": "Python",
+      "nivel": "avançado",
+      "descricao": "Python de alta performance com pipelines de dados, microsserviços e ML.",
+      "modulos": [
+        { "id": 1, "nome": "Arquitetura com FastAPI", "objetivo": "APIs assíncronas de alta performance" },
+        { "id": 2, "nome": "Pipeline de Dados", "objetivo": "Pandas, NumPy e processamento em batch" },
+        { "id": 3, "nome": "Machine Learning com Scikit-learn", "objetivo": "Treinamento, avaliação e deploy de modelos" },
+        { "id": 4, "nome": "Concorrência e Paralelismo", "objetivo": "asyncio, threading e multiprocessing" },
+        { "id": 5, "nome": "Docker e Deploy", "objetivo": "Containerização de aplicações Python" },
+        { "id": 6, "nome": "Testes de Integração e CI/CD", "objetivo": "Pytest avançado, GitHub Actions e coverage" }
+      ],
+      "projeto_final": "Pipeline de Machine Learning com FastAPI, Docker e deploy automatizado via CI/CD",
+      "xp": 22000,
+      "badges": ["Python Expert", "ML Engineer", "FastAPI Master", "DevOps Python"]
+    },
+
+    {
+      "tecnologia": "Java",
+      "nivel": "iniciante",
+      "descricao": "Fundamentos da linguagem Java com foco em lógica e orientação a objetos.",
+      "modulos": [
+        { "id": 1, "nome": "Introdução ao Java", "objetivo": "Sintaxe, tipos primitivos e estrutura de um programa Java" },
+        { "id": 2, "nome": "Estruturas de Controle", "objetivo": "if/else, switch, for, while e do-while" },
+        { "id": 3, "nome": "Arrays e Strings", "objetivo": "Manipulação de vetores e cadeias de caracteres" },
+        { "id": 4, "nome": "Orientação a Objetos Básica", "objetivo": "Classes, objetos, atributos e métodos" },
+        { "id": 5, "nome": "Coleções Básicas", "objetivo": "ArrayList, HashMap e iteração" }
+      ],
+      "projeto_final": "Sistema de cadastro de alunos com CRUD em memória usando Java puro",
+      "xp": 9000,
+      "badges": ["Java Starter", "OOP Beginner"]
+    },
+    {
+      "tecnologia": "Java",
+      "nivel": "intermediário",
+      "descricao": "Java com boas práticas de POO, padrões de projeto e persistência de dados.",
+      "modulos": [
+        { "id": 1, "nome": "POO Avançada", "objetivo": "Herança, interfaces, polimorfismo e classes abstratas" },
+        { "id": 2, "nome": "Generics e Collections", "objetivo": "List, Set, Map e uso de Generics" },
+        { "id": 3, "nome": "Tratamento de Exceções", "objetivo": "try/catch/finally, exceções customizadas" },
+        { "id": 4, "nome": "Streams e Lambda", "objetivo": "Programação funcional com Java 8+" },
+        { "id": 5, "nome": "Banco de Dados com JDBC", "objetivo": "Conexão e operações SQL com Java" },
+        { "id": 6, "nome": "Testes com JUnit 5", "objetivo": "Testes unitários e assertivas" }
+      ],
+      "projeto_final": "Sistema bancário com operações de conta, transferência e extrato usando POO e JDBC",
+      "xp": 15000,
+      "badges": ["Java Developer", "OOP Expert", "Stream Master"]
+    },
+    {
+      "tecnologia": "Java",
+      "nivel": "avançado",
+      "descricao": "Java enterprise com Spring Boot, microsserviços e arquitetura escalável.",
+      "modulos": [
+        { "id": 1, "nome": "Spring Boot Avançado", "objetivo": "Configurações, profiles, autoconfigure e starters" },
+        { "id": 2, "nome": "JPA e Hibernate", "objetivo": "Mapeamento avançado de entidades e relacionamentos" },
+        { "id": 3, "nome": "Segurança com Spring Security", "objetivo": "Autenticação OAuth2 e JWT" },
+        { "id": 4, "nome": "Microsserviços com Spring Cloud", "objetivo": "Comunicação entre serviços, Feign e Eureka" },
+        { "id": 5, "nome": "Mensageria com RabbitMQ", "objetivo": "Filas, tópicos e processamento assíncrono" },
+        { "id": 6, "nome": "Testes com JUnit 5 e Mockito", "objetivo": "Testes unitários, de integração e mocks" }
+      ],
+      "projeto_final": "Sistema de e-commerce com microsserviços, autenticação OAuth2 e mensageria",
+      "xp": 23000,
+      "badges": ["Java Expert", "Spring Master", "Microservices Architect", "Security Pro"]
+    },
+
+    {
+      "tecnologia": "React",
+      "nivel": "iniciante",
+      "descricao": "Introdução ao React para construção de interfaces web modernas.",
+      "modulos": [
+        { "id": 1, "nome": "Introdução ao React", "objetivo": "JSX, Virtual DOM e criação de componentes" },
+        { "id": 2, "nome": "Props e State", "objetivo": "Passagem de dados entre componentes e estado local" },
+        { "id": 3, "nome": "Eventos no React", "objetivo": "onClick, onChange e manipulação de formulários" },
+        { "id": 4, "nome": "Listas e Condicionais", "objetivo": "Renderização condicional e listas com key" },
+        { "id": 5, "nome": "Estilização", "objetivo": "CSS Modules, inline styles e styled-components básico" }
+      ],
+      "projeto_final": "Lista de tarefas (To-Do List) com adição, remoção e marcação de concluído",
+      "xp": 9000,
+      "badges": ["React Starter", "JSX Explorer"]
+    },
+    {
+      "tecnologia": "React",
+      "nivel": "intermediário",
+      "descricao": "Desenvolvimento de interfaces modernas e escaláveis com React.",
+      "modulos": [
+        { "id": 1, "nome": "Hooks Essenciais", "objetivo": "useState, useEffect, useRef e useContext" },
+        { "id": 2, "nome": "Componentes Avançados", "objetivo": "HOCs, Render Props e composição de componentes" },
+        { "id": 3, "nome": "Gerenciamento de Estado", "objetivo": "Context API e introdução ao Redux Toolkit" },
+        { "id": 4, "nome": "Roteamento com React Router", "objetivo": "Rotas dinâmicas, protegidas e navegação" },
+        { "id": 5, "nome": "Consumo de APIs", "objetivo": "Integração com backends REST usando axios e React Query" },
+        { "id": 6, "nome": "Testes com React Testing Library", "objetivo": "Testes de componentes e interações" }
+      ],
+      "projeto_final": "Dashboard de tarefas com autenticação, rotas protegidas e consumo de API REST",
+      "xp": 15000,
+      "badges": ["React Developer", "Hooks Master", "React Router Pro"]
+    },
+    {
+      "tecnologia": "React",
+      "nivel": "avançado",
+      "descricao": "React de alta performance com arquitetura escalável e boas práticas avançadas.",
+      "modulos": [
+        { "id": 1, "nome": "Performance no React", "objetivo": "useMemo, useCallback, React.memo e Profiler" },
+        { "id": 2, "nome": "Hooks Customizados", "objetivo": "Criação e reutilização de custom hooks" },
+        { "id": 3, "nome": "Redux Toolkit Avançado", "objetivo": "RTK Query, slices e middleware" },
+        { "id": 4, "nome": "Micro-frontends", "objetivo": "Module Federation e arquitetura distribuída" },
+        { "id": 5, "nome": "Server-Side Rendering", "objetivo": "Introdução ao Next.js e SSR/SSG" },
+        { "id": 6, "nome": "Acessibilidade e Boas Práticas", "objetivo": "ARIA, semântica e Lighthouse" }
+      ],
+      "projeto_final": "Plataforma de e-commerce com SSR via Next.js, Redux Toolkit e acessibilidade completa",
+      "xp": 22000,
+      "badges": ["React Expert", "Performance Ninja", "Next.js Developer", "A11y Champion"]
+    },
+
+    {
+      "tecnologia": "Node.js",
+      "nivel": "iniciante",
+      "descricao": "Introdução ao desenvolvimento backend com Node.js.",
+      "modulos": [
+        { "id": 1, "nome": "Introdução ao Node.js", "objetivo": "Event loop, módulos nativos e NPM" },
+        { "id": 2, "nome": "Sistema de Arquivos", "objetivo": "Leitura e escrita com o módulo fs" },
+        { "id": 3, "nome": "HTTP e Servidor Básico", "objetivo": "Criar um servidor HTTP sem frameworks" },
+        { "id": 4, "nome": "Express.js Básico", "objetivo": "Rotas, middlewares e respostas JSON" },
+        { "id": 5, "nome": "Banco de Dados com MongoDB", "objetivo": "CRUD básico com Mongoose" }
+      ],
+      "projeto_final": "API de notas pessoais com Express e MongoDB (CRUD completo)",
+      "xp": 9000,
+      "badges": ["Node Starter", "Express Beginner"]
+    },
+    {
+      "tecnologia": "Node.js",
+      "nivel": "intermediário",
+      "descricao": "Node.js com boas práticas, autenticação e integração com bancos de dados.",
+      "modulos": [
+        { "id": 1, "nome": "Arquitetura MVC", "objetivo": "Organização de projetos com Model-View-Controller" },
+        { "id": 2, "nome": "Autenticação com JWT", "objetivo": "Login, registro e proteção de rotas" },
+        { "id": 3, "nome": "Banco de Dados Relacional", "objetivo": "PostgreSQL com Knex.js ou Sequelize" },
+        { "id": 4, "nome": "Upload de Arquivos", "objetivo": "Multer e armazenamento local/cloud" },
+        { "id": 5, "nome": "Envio de E-mails", "objetivo": "Nodemailer e templates de e-mail" },
+        { "id": 6, "nome": "Testes com Jest e Supertest", "objetivo": "Testes de rotas e cobertura de código" }
+      ],
+      "projeto_final": "API de blog com autenticação, upload de imagens e testes automatizados",
+      "xp": 15000,
+      "badges": ["Node Developer", "JWT Master", "SQL Builder"]
+    },
+    {
+      "tecnologia": "Node.js",
+      "nivel": "avançado",
+      "descricao": "Arquitetura backend escalável e de alta performance com Node.js.",
+      "modulos": [
+        { "id": 1, "nome": "Arquitetura RESTful e Clean Architecture", "objetivo": "SOLID, DDD e separação de camadas" },
+        { "id": 2, "nome": "Autenticação OAuth2 e JWT", "objetivo": "Login social, refresh tokens e segurança" },
+        { "id": 3, "nome": "Banco de Dados com Prisma", "objetivo": "ORM moderno para PostgreSQL com migrations" },
+        { "id": 4, "nome": "Cache com Redis", "objetivo": "Estratégias de cache e filas com Bull" },
+        { "id": 5, "nome": "Testes de Integração", "objetivo": "Supertest, mocks de banco e cobertura total" },
+        { "id": 6, "nome": "Deploy e CI/CD", "objetivo": "Docker, GitHub Actions e deploy em produção" }
+      ],
+      "projeto_final": "API REST completa de gerenciamento de usuários com OAuth2, Redis e deploy automatizado",
+      "xp": 23000,
+      "badges": ["Node Expert", "Clean Architect", "Redis Master", "DevOps Node"]
+    }
+
+  ]
+}
